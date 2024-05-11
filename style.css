@@ -1,0 +1,96 @@
+body {
+    background-color: #0b0b0e;
+    color: #cccccc;
+    font-family: Lato, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.design {
+    color: #ffcf22;
+}
+
+.pro {
+    color: #ed6f86;
+}
+
+img {
+    max-width: 250px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+article {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.kontakt {
+    font-size: 18px;
+    margin: 8px;
+}
+
+.tekst {
+    display: flex;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.linki {
+    color: #cccccc;
+    text-decoration: none;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.linki:hover {
+    color: #ed6f86;
+}
+
+.kontakt:hover {
+    color: #ed6f86;
+}
+
+.skontaktuj {
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.nasza {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 900px) {
+
+.tekst {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+}
